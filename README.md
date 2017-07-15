@@ -11,19 +11,17 @@ sink of everything I find valuable.
 1. [Wikipedia][wiki] is a great place to start.
 
 1. Simple nasm [hello world][hello] tutorial and a much more
-   detailed [language reference][nasm-ref]
+   detailed [language reference][nasm-ref]. The tutorial aims 32 bit arch, but
+   the [makefile](nasm/Makefile) fixes it.
 
-   The tutorial aims 32 bit arch, but the [makefile](nasm/Makefile) fixes it.
-
-1. The [x86 assembly guide  x86 Assembly Guide][guide] by  U. of Virginia.
-
-   The guide is written for the MASM assembler (Intel syntax). Contains a quick
+1. The [x86 assembly guide x86 Assembly Guide][guide] by U. of Virginia. The
+   guide is written for the MASM assembler (Intel syntax). Contains a quick
    introduction to the common instructions.
 
 1. The [x86 calling convention][cc] explains how functions are called.
 
-1. [X86 Opcode and Instruction Reference][ref]
-   A big table explaining all the op codes and mnemonics.
+1. [X86 Opcode and Instruction Reference][ref]. A big table explaining all the
+   op codes and mnemonics.
 
 1. [x86 cheat sheet][cheat], if you are into that sort of thing.
 
