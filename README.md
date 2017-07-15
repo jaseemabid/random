@@ -1,10 +1,9 @@
 # Learn assembly from first principles
 
-The goal is to write assembly for modern x86 machines, with no concern
-https://en.wikipedia.org/wiki/X86_assembly_language#Syntaxfor backward
-compatibility. Avoid emulators and use the native hardware as much as possible.
-I approach the 3 popular formats here, nasm, at&t and Intel. This is a kitchen
-sink of everything I find valuable.
+The goal is to write assembly for modern x86 machines, with no concern for
+backward compatibility. Avoid emulators and use the native hardware as much as
+possible. I approach the 3 popular formats here, nasm, at&t and Intel. This is a
+kitchen sink of everything I find valuable.
 
 ### Reading list
 
