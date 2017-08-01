@@ -1,3 +1,4 @@
+;; [TODO] - rdpmc might be useful
 extern exit
 section .text
 global _start             ; must be declared for linker (ld)
@@ -10,11 +11,11 @@ _start:                   ; tell linker entry point
   ;; mov rax,4               ; system call number (sys_write)
   ;; int 0x80                ; call kernel
 
-  rdtscp                   ; rdx [first half], rax [second half])
+  rdpmc                  ; rdx [first half], rax [second half])
   xor rcx,rcx             ; Set rcx to zero
   add rcx,rax             ; save timestamp to rcx
 
-  rdtscp                  ; get another timestamp
+  rdpmc                  ; get another timestamp
 
   sub rax,rcx             ; compute elapsed ticks
 
